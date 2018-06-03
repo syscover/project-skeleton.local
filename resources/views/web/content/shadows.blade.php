@@ -64,7 +64,6 @@
 
         @include('web.includes.menu')
 
-
         <div class="content">
             <div class="title m-b-md">
                 Laravel {{ user_lang() }}
@@ -80,6 +79,24 @@
             <hr>
 
             <h1>Menu 01</h1>
+
+            <br>
+            <div class="elevation-z1">
+                elevation-z1
+            </div>
+            <br>
+            <div class="elevation-z4">
+                elevation-z4
+            </div>
+            <br>
+            <div class="elevation-z8">
+                elevation-z8
+            </div>
+            <br>
+            <div class="elevation-example">
+                elevation-z4 -> elevation-z8
+            </div>
+
         </div>
     </div>
 @endsection

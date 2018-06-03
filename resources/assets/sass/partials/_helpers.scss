@@ -1,4 +1,4 @@
-@for $i from 1 through 100 {
+@for $i from 0 through 100 {
     // PADDING
     .px-#{$i} {
         padding-left: #{$i}px !important;
@@ -41,5 +41,12 @@
     }
     .ml-#{$i} {
         margin-left: #{$i}px !important;
+    }
+}
+
+// MATERIAL SHADOWS FRON 0 TO 24
+@for $i from 0 through 24 {
+    .elevation-z#{$i} {
+        @include mat-elevation($i);
     }
 }

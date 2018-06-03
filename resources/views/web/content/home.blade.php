@@ -62,11 +62,7 @@
 @section('content')
     <div class="flex-center position-ref full-height">
 
-        <div class="top-right links">
-            <a class="{{ active_route('web.home', 'active') }}" href="{{ nt_route('web.home') }}">Home</a>
-            <a class="{{ active_route(['web.menu_01-en', 'web.menu_01-es', 'web.menu_01-fr', 'web.menu_01-rus'], 'active') }}" href="{{ nt_route('web.menu_01-' . user_lang()) }}">Menu 01</a>
-        </div>
-
+        @include('web.includes.menu')
 
         <div class="content">
             <div class="title m-b-md">

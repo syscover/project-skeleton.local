@@ -7,14 +7,18 @@ class WebFrontendController extends Controller
     public function home(Request $request)
     {
         $response = [];
-
         return view('web.content.home', $response);
     }
 
     public function menu01(Request $request)
     {
         $response = [];
-
         return view('web.content.menu_01', $response);
+    }
+
+    public function shadows(Request $request)
+    {
+        $response = [];
+        return view('web.content.shadows', $response);
     }
 }
