@@ -16,6 +16,7 @@ mix
     .js('resources/assets/js/app.js', 'public/js')
     .styles([
         'node_modules/swiper/dist/css/swiper.min.css',
+        'node_modules/animate.css/animate.min.css'
     ], 'public/css/all.css')
     .scripts([
         'node_modules/jquery/dist/jquery.min.js',
