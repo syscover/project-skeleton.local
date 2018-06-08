@@ -42,6 +42,11 @@
     .ml-#{$i} {
         margin-left: #{$i}px !important;
     }
+
+    // FONT SIZE
+    .font-#{$i} {
+        font-size: #{$i}px !important;
+    }
 }
 
 // MATERIAL SHADOWS FRON 0 TO 24

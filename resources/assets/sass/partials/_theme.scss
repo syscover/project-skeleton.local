@@ -6,3 +6,7 @@
         @include mat-elevation(8);
     }
 }
+
+.links a.active {
+    color: red;
+}
